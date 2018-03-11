@@ -21,9 +21,9 @@ new Notification().AddError(new Error("Policy number is missing"));
 To add a *warning* to the notification object:
 
 ```c#
-new Notification.AddWarning("Amount is close to the lending limit");
+new Notification().AddWarning("Amount is close to the lending limit");
 //or
-new Notification.AddWarning(new Warning("Amount is close to the lending limit"));
+new Notification().AddWarning(new Warning("Amount is close to the lending limit"));
 ```
 
 To check if  the notification has any *errors*:
@@ -44,7 +44,7 @@ To check if the notification has a specific *error*:
 new Notification().IncludesError("Policy number is missing");
 ```
 
-To check if the notification has a specific warning:
+To check if the notification has a specific *warning*:
 
 ```c#
 new Notification().IncludesWarning("Amount is close to the lending limit");
