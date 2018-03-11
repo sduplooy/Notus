@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>Notus</id>
+		<version>1.0.0</version>
+		<title>Notus</title>
+		<authors>Sydney du Plooy</authors>
+		<licenseUrl>https://github.com/sduplooy/Notus/blob/master/LICENSE</licenseUrl>
+		<projectUrl>https://github.com/sduplooy/Notus</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Provides a notification object that collects errors and warnings.</description>
+		<releaseNotes>Adds a notification object that collects errors and warnings.</releaseNotes>
+		<copyright>Copyright (c) 2018 Sydney du Plooy</copyright>
+		<tags>Notification Errors Warnings DDD Domain Driven Design</tags>
+	</metadata>
+	<files>
+		<file src="Notus\bin\Release\Notus.dll" target="lib\net45" />
+	</files>
+</package>
